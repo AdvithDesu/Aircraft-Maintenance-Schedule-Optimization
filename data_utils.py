@@ -643,7 +643,7 @@ def load_amcs_data(filepath: str) -> AMCSData:
 
 
 # ---------------------------------------------------------------------------
-# Diagnostic / sanity-check
+# Diagnostic stuff
 # ---------------------------------------------------------------------------
 
 def print_summary(data: AMCSData) -> None:
