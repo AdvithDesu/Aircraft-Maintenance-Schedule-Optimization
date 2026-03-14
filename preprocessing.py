@@ -3,7 +3,7 @@ preprocessing.py
 ================
 Section 2 of the AMCS Two-Stage QUBO Formulation:
   2.1  Predicting due dates  (forward accumulation of FH/FC, month-by-month)
-  2.2  Due-date uncertainty  (delta-method approximation)
+  2.2  Due-date uncertainty
   2.3  Constructing maintenance windows
   2.4  C-check duration lookup  (delegated to AMCSData.get_c_duration)
   2.5  A-into-C merging
@@ -34,7 +34,7 @@ import numpy as np
 from data_utils import AMCSData, day_to_date
 
 # ---------------------------------------------------------------------------
-# Module-level constants (Section 1.5 of the formulation)
+# Module-level constants
 # ---------------------------------------------------------------------------
 
 Z_ALPHA: float = 2.0        # Confidence parameter (~95% coverage for windows)
